@@ -2,6 +2,9 @@
 
 import pandas as pd 
 import streamlit as st
+import numpy as np
+np.logical_or
+
 
 from PIL import Image
 import pip
