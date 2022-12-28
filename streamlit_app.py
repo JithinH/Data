@@ -2,7 +2,7 @@
 
 import pandas as pd 
 import streamlit as st
-import csv
+
 
 from PIL import Image
 import pip
@@ -14,7 +14,7 @@ st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
 # excel_file=pd.read_excel('https://docs.google.com/spreadsheets/d/1U2U7Po6HULZ39nppdw6y9boaddm0W-py/edit#gid=1317655909' ,engine="openpyxl")
-excel_file=pd.read_excel(r'C:\Users\Jithin H S\Downloads\final_data(2)')
+excel_file=pd.read_excel(r'D:\Documents\final_data(2)')
 sheet_name='Sheet1'
 
 #data accessing from excel 
