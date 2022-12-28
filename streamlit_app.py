@@ -2,6 +2,7 @@
 
 import pandas as pd 
 import streamlit as st
+import csv
 
 #from PIL import Image
 #import pip
@@ -12,8 +13,7 @@ import streamlit as st
 st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
-a=open(r'C:\Users\Jithin H S\Documents\final_data.csv')
-excel_file=pd.read_csv(a)
+excel_file=pd.read_csv=(r"C:\Users\Jithin H S\Documents\final_data.csv")
 sheet_name='Sheet1'
 
 #data accessing from excel 
