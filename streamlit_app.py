@@ -13,8 +13,8 @@ pip.main(["install", "openpyxl"])
 st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
-# excel_file=pd.read_excel('https://docs.google.com/spreadsheets/d/1U2U7Po6HULZ39nppdw6y9boaddm0W-py/edit#gid=1317655909' ,engine="openpyxl")
-excel_file=pd.read_excel("C:\Users\Jithin H S\Downloads\Excel_Webapp\Test.xlsx" ,engine = 'openpyxl')
+excel_file=pd.read_excel('https://docs.google.com/spreadsheets/d/1U2U7Po6HULZ39nppdw6y9boaddm0W-py/edit#gid=1317655909' ,engine="openpyxl")
+# excel_file=pd.read_excel("C:\Users\Jithin H S\Downloads\Excel_Webapp\Test.xlsx" ,engine = 'openpyxl')
 sheet_name='Sheet1'
 
 #data accessing from excel 
