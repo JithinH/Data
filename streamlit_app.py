@@ -1,30 +1,33 @@
+#importing required libraries 
+
 import pandas as pd 
 import streamlit as st
-from PIL import Image
-import pip
-pip.main(["install", "openpyxl"])
 
+#from PIL import Image
+#import pip
+#pip.main(["install", "openpyxl"])
+#above three codes can be used if pictures are required
 
+#basic page setup and code for accessing required files
 st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
-excel_file='Test.xlsx'
-sheet_name='test'
+excel_file='final_data.xlsx'
+sheet_name='Sheet1'
 
+#data accessing from excel 
 df=pd.read_excel(excel_file,
                 sheet_name=sheet_name,
-                usecols='A:D',
+                usecols='A:E',
                 header=0)
                 
                  
 # st.dataframe(df)
-state=st.text_input('Enter glass colour',label_visibility="visible")
+#search bar
+to_find=st.text_input('Enter glass colour or type',label_visibility="visible")
+makers=df.where(df['COLOUR']== to_find or df['TYPE']== to_find)
 
-
-makers=df.where(df['State[c]']== state,)
-
-
-#st.dataframe(makers)
+#display searched elements	
 st.table(makers.dropna())
 
 
