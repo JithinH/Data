@@ -30,9 +30,9 @@ makers1=df.where(df['TYPE']== to_find)
 
 
 #display searched elements	
-s=makers
-s.append(makers1)
+#s=makers
+#s.append(makers1)
 #st.table(makers.dropna())
-#st.table(makers1.dropna())
-st.table(s.dropna())
+st.table(makers1.dropna())
+#st.table(s.dropna())
 
