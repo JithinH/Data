@@ -14,7 +14,7 @@ st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
 # excel_file=pd.read_excel('https://docs.google.com/spreadsheets/d/1U2U7Po6HULZ39nppdw6y9boaddm0W-py/edit#gid=1317655909' ,engine="openpyxl")
-excel_file=open(r"D:\Documents\final_data (2).xlsx" ,engine="openpyxl")
+excel_file=(r"D:\Documents\final_data (2).xlsx" ,engine="openpyxl")
 sheet_name='Sheet1'
 
 #data accessing from excel 
