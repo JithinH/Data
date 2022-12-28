@@ -25,15 +25,9 @@ df=pd.read_excel(excel_file,
 # st.dataframe(df)
 #search bar
 to_find=st.text_input('Enter glass colour or type',label_visibility="visible")
-makers=df.where(df['COLOUR']== to_find) 
-makers1=df.where(df['TYPE']== to_find)
-
+makers=df.where((df['COLOUR']== to_find) | (df['TYPE']== to_find))
 
 #display searched elements	
-#s=makers
-#s.append(makers1)
-makers.append(makers1)
 st.table(makers.dropna())
-#st.table(makers1.dropna())
-#st.table(makers.dropna())
+
 
