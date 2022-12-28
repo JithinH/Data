@@ -3,9 +3,9 @@
 import pandas as pd 
 import streamlit as st
 
-#from PIL import Image
-#import pip
-#pip.main(["install", "openpyxl"])
+from PIL import Image
+import pip
+pip.main(["install", "openpyxl"])
 #above three codes can be used if pictures are required
 
 #basic page setup and code for accessing required files
