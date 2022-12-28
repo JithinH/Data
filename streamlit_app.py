@@ -13,7 +13,7 @@ import csv
 st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
-excel_file=open(r"C:\Users\Jithin H S\OneDrive\Desktop\final_data.csv")
+excel_file=('https://docs.google.com/spreadsheets/d/1U2U7Po6HULZ39nppdw6y9boaddm0W-py/edit#gid=1317655909')
 sheet_name='Sheet1'
 
 #data accessing from excel 
