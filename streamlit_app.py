@@ -3,10 +3,9 @@
 import pandas as pd 
 import streamlit as st
 
-
-# from PIL import Image
-# import pip
-# pip.main(["install", "openpyxl"])
+#from PIL import Image
+#import pip
+#pip.main(["install", "openpyxl"])
 #above three codes can be used if pictures are required
 
 #basic page setup and code for accessing required files
@@ -26,9 +25,12 @@ df=pd.read_excel(excel_file,
 # st.dataframe(df)
 #search bar
 to_find=st.text_input('Enter glass colour or type',label_visibility="visible")
-makers=df.where(df['COLOUR']== to_find or df['TYPE']== to_find)
+makers=df.where((df['COLOUR']== to_find) or (df['TYPE']== to_find))
 
 #display searched elements	
 st.table(makers.dropna())
+
+
+
 
 
