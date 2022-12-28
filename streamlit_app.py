@@ -13,7 +13,7 @@ import csv
 st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
-excel_file=pd.read_csv=("C:\Users\Jithin H S\final_data.csv")
+excel_file=pd.read_csv=(r"C:\Users\Jithin H S\final_data.csv")
 sheet_name='Sheet1'
 
 #data accessing from excel 
