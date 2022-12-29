@@ -13,7 +13,7 @@ pip.main(["install", "openpyxl"])
 st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
-excel_file=pd.read_excel("C:\Users\Jithin H S\Downloads\Excel_Webapp\final_data.xlsx" ,engine = 'openpyxl')
+excel_file=pd.read_excel("C:\Users\Jithin H S\Downloads\Excel_Webapp\final_data.xlsx")
 sheet_name='Sheet1'
 
 #data accessing from excel 
