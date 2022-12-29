@@ -13,7 +13,7 @@ import streamlit as st
 st.set_page_config(page_title='COMPANY NAME')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory')
-excel_file='C:\Users\Jithin H S\Downloads\final_data.xlsx'
+excel_file=(r'C:\Users\Jithin H S\Downloads\final_data.xlsx')
 sheet_name='Sheet1'
 
 #data accessing from excel 
