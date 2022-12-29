@@ -17,10 +17,7 @@ excel_file=pd.read_excel(r'C:\Users\Jithin H S\Downloads\final_data.xlsx')
 sheet_name='Sheet1'
 
 #data accessing from excel 
-df=pd.read_excel(
-                sheet_name=sheet_name,
-                usecols='A:E',
-                header=0)
+
                 
                  
 # st.dataframe(df)
