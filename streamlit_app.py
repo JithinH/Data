@@ -11,7 +11,7 @@ import streamlit as st
 #basic page setup and code for accessing required files
 st.set_page_config(page_title='COMPANY NAME')
 st.markdown('<h1 style="text-align: center; color: Red;">GLASSCRAFTERS</h1>', unsafe_allow_html=True)
-st.markdown('<h2 style="text-align: center;color: Yellow;">Glass Inventory</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align: center;color: blue;">Glass Inventory</h2>', unsafe_allow_html=True)
 col1, col2, col3 = st.columns(3)
 
 with col1:
