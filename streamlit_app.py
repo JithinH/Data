@@ -7,7 +7,7 @@ import streamlit as st
 
 st.set_page_config(page_title='GLASS INVENTORY')
 st.markdown('<h1 style="text-align: center; color: Red;">GLASSCRAFTERS</h1>', unsafe_allow_html=True)
-st.markdown('<h2 style="text-align: center;color: yellow;">Glass Inventory</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align: center;color: blue;">Glass Inventory</h2>', unsafe_allow_html=True)
 excel_file='final_data_2.xlsx'
 sheet_name='Sheet1'
 
