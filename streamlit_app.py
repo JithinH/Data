@@ -2,8 +2,6 @@
 
 import pandas as pd 
 import streamlit as st
-from decimal import Decimal
-decimal=0
 
 #from PIL import Image
 #import pip
@@ -28,9 +26,8 @@ df=pd.read_excel(excel_file,
 #search bar
 to_find=st.text_input('Enter glass colour or type',label_visibility="visible")
 makers=(df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM CODE']==to_find) | (df['GLASSCRAFTERS CODE']==to_find) | (df['SHADE']==to_find) | (df['SHELF']==to_find)))
-na=decimal.Decimal('makers').normalize()
 
 #display searched elements	
-st.table(na.dropna())
+st.table(makers.dropna())
 
 
