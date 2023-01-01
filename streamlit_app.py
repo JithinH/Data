@@ -10,9 +10,9 @@ import streamlit as st
 
 #basic page setup and code for accessing required files
 st.set_page_config(page_title='COMPANY NAME')
-st.header('GLASS CRAFTERS')
-st.subheader('Glass Inventory')
-excel_file='final_data.xlsx'
+st.markdown('<div style="text-align: center;">GLASSCRAFTERS</div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: center;"Glass Inventory></div>', unsafe_allow_html=True)
+excel_file='final_data_2.xlsx'
 sheet_name='Sheet1'
 
 #data accessing from excel 
