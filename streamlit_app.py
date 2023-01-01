@@ -8,7 +8,7 @@ import streamlit as st
 st.set_page_config(page_title='GLASS INVENTORY')
 st.header('GLASS CRAFTERS')
 st.subheader('Glass Inventory Database')
-excel_file='final_data.xlsx'
+excel_file='final_data_2.xlsx'
 sheet_name='Sheet1'
 
 #data accessing from excel 
