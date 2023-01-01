@@ -29,10 +29,10 @@ makers=df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM 
 
 st.table(makers.dropna())
 
-*/ Project by CMRIT students
-	Deekshita S
-	Devyashree Menon	
-	Jaynth R
-	Jithin HS
-	Madhushree L
-	Meghana Singh  /*
+# */ Project by CMRIT students
+# 	Deekshita S
+# 	Devyashree Menon	
+# 	Jaynth R
+# 	Jithin HS
+# 	Madhushree L
+# 	Meghana Singh  /*
