@@ -29,6 +29,6 @@ makers=st.dataframe((df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | 
 
 
 #display searched elements	
-st.table(makers.dropna())
+st.table(df.dropna())
 
 
