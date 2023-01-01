@@ -6,9 +6,9 @@ import streamlit as st
 #basic page setup and code for accessing required files
 
 st.set_page_config(page_title='GLASS INVENTORY')
-st.header('GLASS CRAFTERS')
-st.subheader('Glass Inventory Database')
-excel_file='final_data_2.xlsx'
+st.markdown('GLASSCRAFTERS', align_text='center')
+st.markdown('Glass Inventory', align_text='center')
+excel_file='final_data_1.xlsx'
 sheet_name='Sheet1'
 
 #data accessing from excel 
@@ -29,10 +29,10 @@ makers=df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM 
 
 st.table(makers.dropna())
 
-# /* Project by CMRIT students
-# 	Deekshita S
-# 	Devyashree Menon	
-# 	Jaynth R
-# 	Jithin HS
-# 	Madhushree L
-# 	Meghana Singh  */
+*/ Project by CMRIT students
+	Deekshita S
+	Devyashree Menon	
+	Jaynth R
+	Jithin HS
+	Madhushree L
+	Meghana Singh  /*
