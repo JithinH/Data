@@ -18,7 +18,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("https://render.fineartamerica.com/images/rendered/search/print/8/6.5/break/images/artworkimages/medium/2/stained-glass-cat-art-peggy-collins.jpg")
+    st.image("https://st2.depositphotos.com/1025323/11983/i/950/depositphotos_119830468-stock-photo-digital-life-of-stained-glass.jpg")
 
 with col3:
     st.write(' ')
