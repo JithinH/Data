@@ -12,6 +12,16 @@ import streamlit as st
 st.set_page_config(page_title='COMPANY NAME')
 st.markdown('<h1 style="text-align: center; color: Red;">GLASSCRAFTERS</h1>', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align: center;color: Yellow;">Glass Inventory</h2>', unsafe_allow_html=True)
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.image("https://static.streamlit.io/examples/dog.jpg")
+
+with col3:
+    st.write(' ')
 excel_file='final_data_2.xlsx'
 sheet_name='Sheet1'
 
