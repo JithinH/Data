@@ -29,6 +29,6 @@ makers=str(df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECT
 
 
 #display searched elements	
-st.table(makers.dropna())
+st.table(makers.fillna())
 
 
