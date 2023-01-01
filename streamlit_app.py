@@ -18,7 +18,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("https://static.streamlit.io/examples/dog.jpg")
+    st.image("https://render.fineartamerica.com/images/rendered/search/print/8/6.5/break/images/artworkimages/medium/2/stained-glass-cat-art-peggy-collins.jpg")
 
 with col3:
     st.write(' ')
