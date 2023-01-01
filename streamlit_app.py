@@ -29,6 +29,6 @@ makers=(df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM
 makers=df.style.format(precision=0)
 
 #display searched elements	
-st.table(makers.dropna())
+st.table(makers.data.drop())
 
 
