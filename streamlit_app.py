@@ -25,7 +25,6 @@ df=pd.read_excel(excel_file,
 # st.dataframe(df)
 #search bar
 to_find=st.text_input('Enter glass colour or type',label_visibility="visible")
-int(df.where(df['GLASSCRAFTERS CODE']==to_find))
 makers=str(df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM CODE']==to_find) | (df['GLASSCRAFTERS CODE']==to_find) | (df['SHADE']==to_find) | (df['SHELF']==to_find)))
 
 
