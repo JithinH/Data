@@ -27,7 +27,7 @@ df=pd.read_excel(excel_file,
 #search bar
 to_find=st.text_input('Enter glass colour or type',label_visibility="visible")
 makers=(df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM CODE']==to_find) | (df['GLASSCRAFTERS CODE']==to_find) | (df['SHADE']==to_find) | (df['SHELF']==to_find)))
-na=decimal.Decimal('makers').normalize()
+na=Decimal('makers').normalize()
 
 #display searched elements	
 st.table(na.dropna())
