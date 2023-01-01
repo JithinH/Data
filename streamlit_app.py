@@ -6,8 +6,10 @@ import streamlit as st
 #basic page setup and code for accessing required files
 
 st.set_page_config(page_title='GLASS INVENTORY')
-st.markdown('GLASSCRAFTERS', align_text='center')
-st.markdown('Glass Inventory', align_text='center')
+x=st.markdown('GLASSCRAFTERS')
+y=st.markdown('Glass Inventory')
+name_1=x.center(60)
+name_2=y.center(60)
 excel_file='final_data_1.xlsx'
 sheet_name='Sheet1'
 
