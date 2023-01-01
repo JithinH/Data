@@ -18,7 +18,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("https://st2.depositphotos.com/1025323/11983/i/950/depositphotos_119830468-stock-photo-digital-life-of-stained-glass.jpg")
+    st.image("https://st2.depositphotos.com/1025323/11461/i/950/depositphotos_114615432-stock-photo-digital-life-of-stained-glass.jpg")
 
 with col3:
     st.write(' ')
