@@ -13,7 +13,7 @@ st.set_page_config(page_title='COMPANY NAME')
 st.markdown('<h1 style="text-align: center; color: Red;">GLASSCRAFTERS</h1>', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align: center;color: yellow;">Glass Inventory</h2>', unsafe_allow_html=True)
 
-excel_file='final_data_2.xlsx'
+excel_file='final_data_1.xlsx'
 sheet_name='Sheet1'
 
 #data accessing from excel 
