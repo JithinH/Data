@@ -23,10 +23,9 @@ df=pd.read_excel(excel_file,
 #search bar
 
 to_find=st.text_input('Type to search',label_visibility="visible")
-makers=pd.to_numeric(df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM CODE']==to_find) | (df['GLASSCRAFTERS CODE']==to_find) | (df['SHADE']==to_find) | (df['NAME']==to_find) | (df['SHELF NUMBER']==to_find)).fillna(0).astype(int))
+makers=df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM CODE']==to_find) | (df['GLASSCRAFTERS CODE']==to_find) | (df['SHADE']==to_find) | (df['NAME']==to_find) | (df['SHELF NUMBER']==to_find))
 
 #display searched elements	
-
 st.table(makers.dropna())
 
 # */ Project by CMRIT students
