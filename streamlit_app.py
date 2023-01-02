@@ -28,10 +28,4 @@ makers=gp.agg(lambda x: list(pd.to_numeric(df.where((df['COLOUR']==to_find) | (d
 #display searched elements	
 # st.table(makers.dropna())
 
-# */ Project by CMRIT students
-# 	Deekshita S
-# 	Devyashree Menon	
-# 	Jaynth R
-# 	Jithin HS
-# 	Madhushree L
-# 	Meghana Singh  /*
+
