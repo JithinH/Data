@@ -26,7 +26,7 @@ to_find=st.text_input('Type to search',label_visibility="visible")
 makers=gp.agg(lambda x: list(pd.to_numeric(df.where((df['COLOUR']==to_find) | (df['TYPE']==to_find) | (df['SPECTRUM CODE']==to_find) | (df['GLASSCRAFTERS CODE']==to_find) | (df['SHADE']==to_find) | (df['NAME']==to_find) | (df['SHELF NUMBER']==to_find)).fillna(0).astype(int),errors='coerce'))
 
 #display searched elements	
-st.table(makers.dropna())
+# st.table(makers.dropna())
 
 # */ Project by CMRIT students
 # 	Deekshita S
