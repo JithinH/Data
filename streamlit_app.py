@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 
 #basic page setup and code for accessing required files
-
 st.set_page_config(page_title='GLASS INVENTORY')
 st.markdown('<h1 style="text-align: center; color: Red;">GLASSCRAFTERS</h1>', unsafe_allow_html=True)
 st.markdown('<h2 style="text-align: center;color: yellow;">Glass Inventory</h2>', unsafe_allow_html=True)
